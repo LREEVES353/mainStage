@@ -7533,7 +7533,7 @@
     "prop-types" "^15.5.10"
     "uuid" "^3.3.2"
 
-"react-native@^0.21.0":
+"react-native@>=0.6.0":
   "integrity" "sha1-yefwjXJEUrpxDHlsRGfGxRXeHLk="
   "resolved" "https://registry.npmjs.org/react-native/-/react-native-0.21.0.tgz"
   "version" "0.21.0"
