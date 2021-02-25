@@ -10,11 +10,8 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "appcenter": "^4.0.2",
-    "appcenter-analytics": "^4.0.2",
-    "appcenter-crashes": "^4.0.2",
-    "react": "16.13.0",
-    "react-native": "^0.63.3",
+    "react": "16.11.0",
+    "react-native": "0.62.0",
     "react-native-webrtc": "^1.75.3",
     "socket.io-client": "^2.3.0"
   },
