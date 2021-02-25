@@ -194,7 +194,16 @@ dependencies {
 
     implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
 
-    debugImplementation("com.facebook.flipper:flipper:${FLIPPER_VERSION}") {
+    debugImplementation("com.facebook.flipper:flipper:${FLIPPER_VERSION
+    compile project(":appcenter")
+    compile fileTree(dir: "node_modules/appcenter/android/libs", include: ["*.jar"])
+
+    compile project(":appcenter-analytics")
+    compile fileTree(dir: "node_modules/appcenter-analytics/android/libs", include: ["*.jar"])
+
+    compile project(":appcenter-crashes")
+    compile fileTree(dir: "node_modules/appcenter-crashes/android/libs", include: ["*.jar"])
+}") {
       exclude group:'com.facebook.fbjni'
     }
 
